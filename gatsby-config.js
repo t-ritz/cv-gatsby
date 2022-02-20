@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
       title: `CV Thibaud Ritzenthaler`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://thibaudritzenthaler.dev`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',

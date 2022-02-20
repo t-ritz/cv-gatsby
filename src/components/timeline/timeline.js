@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import { config } from 'react-awesome-styled-grid'
-import { FaSuitcase } from 'react-icons/fa'
+import {config} from 'react-awesome-styled-grid'
+import {FaSuitcase} from 'react-icons/fa'
 import SectionTitle from '../sectionTitle'
 import siteConfig from '../../../data/siteConfig'
 
-const Timeline = ({ className }) => {
+const Timeline = ({className}) => {
   return (
     <div className={className}>
       <SectionTitle
         title="Experience"
         name="experience"
-        icon={<FaSuitcase size={28} />}
+        icon={<FaSuitcase size={28}/>}
       />
       {siteConfig.jobs &&
         siteConfig.jobs.map(job => (
@@ -24,16 +24,18 @@ const Timeline = ({ className }) => {
                 <span className="timeline__month">{job.begin.month}</span>
                 <span className="timeline__year">{job.begin.year}</span>
               </span>
-              <h2 className="timeline__title">
-                {job.occupation} at {job.company} <br />
+              <h2 className="timeline__title" onClick={() => {
+                job.company.link && (window.location.href = job.company.link)
+              }}>
+                {job.occupation} chez {job.company.name} <br/>
                 <small className="timeline__title--small">
                   {job.location}{' '}
                 </small>
                 <small className="timeline__title--small timeline__title--right">
-                  ({job.duration || 'present'})
+                  {job.duration || 'Actuellement'}
                 </small>
               </h2>
-              <p>{job.description}</p>
+              <p><i>{job.contract}</i> - {job.description}</p>
             </div>
           </article>
         ))}
@@ -106,6 +108,7 @@ export default styled(Timeline)`
     text-transform: uppercase;
     border-radius: 3px 3px 0 0;
     position: relative;
+    cursor: pointer;
   }
   .timeline__title:after {
     content: '';

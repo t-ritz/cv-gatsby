@@ -1,42 +1,80 @@
 module.exports = {
   siteTitle: "Thibaud Ritzenthaler",
-  siteDescription: `CV`,
+  siteDescription: `CV de Thibaud Ritzenthaler`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Thibaud Ritzenthaler',
-  twitterUsername: 'feuxin',
+  //twitterUsername: 'thibaudRtz',
   githubUsername: 'thibaud-ritzenthaler',
-  authorAvatar: '/images/avatar.old.jpg',
-  authorDescription: `On m'apelle ainsi`,
-  skills: [
-
+  authorAvatar: '/images/avatar.png',
+  social: {
+    //twitter: 'https://twitter.com/thibaudRtz/',
+    linkedin: 'https://www.linkedin.com/in/thibaud-ritzenthaler-418b5914a',
+    github: 'https://github.com/thibaud-ritzenthaler/',
+    email: 'thibaud@ritzenthaler.eu',
+  },
+  authorDescription: `Etudiant en alternance niveau ingénieur des Systèmes d'Information, developpeur d'extensions 
+  magento.`,
+  skills: [],
+  expertise: [
+    {
+      name: 'Magento',
+      icon: 'FaMagento',
+    },
+    {
+      name: 'Python',
+      icon: 'FaPython',
+    },
+    {
+      name: 'React',
+      icon: 'FaReact',
+    },
+    {
+      name: 'Unity',
+      icon: 'FaUnity',
+    },
+    {
+      name: 'Node JS',
+      icon: 'FaNodeJs',
+    },
   ],
   jobs: [
     {
-      company: 'Blackbird',
+      company: {
+        name: 'Blackbird',
+        link: "https://black.bird.eu/"
+      },
       begin: {
         month: 'oct',
         year: '2020',
       },
       duration: null,
       location: 'Strasbourg - FR',
-      occupation: 'Apprenti Analyste Developpeur Testeur Web',
+      occupation: 'Analyste Developpeur Testeur Fullstack',
+      contract: "Apprentissage",
       description:
-        'Working providing services for the development of their mobile app using ReactNative, with the goal of providing a complete, fast and smooth Cryptocurrency exchange application.',
+        'Analyse, développement et test d\'extensions pour Magento 2, Tierce Maintenance Applicative sur Magento 2',
     },
     {
-      company: 'Institut de Recherche contre les Cancers de l\'Appareil Digestif',
+      company: {
+        name: 'Websurg, Institut de Recherche contre les Cancers de l\'Appareil Digestif',
+        link: "https://websurg.com/"
+      },
       begin: {
         month: 'sep',
         year: '2019',
       },
       duration: '1 an et 1 mois',
       location: 'Strasbourg - FR',
-      occupation: 'Apprenti Analyste Developpeur Testeur Web',
+      occupation: 'Analyste Developpeur Testeur Web',
+      contract: "Apprentissage",
       description:
-        'I joined the company as one of the main developers, leading the frontend and mobile app development and helping with the architecture and coordination of the backend and blokchain teams.',
+        'Divers travaux au sein de l\'équipe WebSurg liés à la programmation web.',
     },
     {
-      company: 'INTM',
+      company: {
+        name: 'INTM',
+        link: "https://www.intm.fr/"
+      },
       begin: {
         month: 'juil',
         year: '2018',
@@ -44,60 +82,59 @@ module.exports = {
       duration: '2 mois',
       location: 'Strasbourg - FR',
       occupation: 'Analyste Developpeur Testeur',
+      contract: "CDD",
       description:
-        'I joined the company as one of the main developers, leading the frontend and mobile app development and helping with the architecture and coordination of the backend and blokchain teams.',
+        'Suite et fin du développement d\'un chatbot administratif avec Dialogflow, dans la continuité du stage.',
     },
     {
-      company: 'INTM',
+      company:
+        {
+          name: 'INTM',
+          link: "https://www.intm.fr/"
+        },
       begin: {
         month: 'avr',
         year: '2018',
       },
       duration: '3 mois',
       location: 'Strasbourg - FR',
-      occupation: 'Stagiaire Developpeur',
+      occupation: 'Developpeur',
+      contract: "Stage",
       description:
-        'I joined the company as one of the main developers, leading the frontend and mobile app development and helping with the architecture and coordination of the backend and blokchain teams.',
+        'Analyse et développement d\'un chatbot permettant de répondre de manière rapide aux questions administratives des employés dans le cadre d\'une ESN.',
     },
   ],
   publications: [
     {
-      title: 'React Native intermediate level',
-      company_medium: 'OpenWebinars',
+      title: '',
+      company_medium: '',
       date: {
-        month: 'jun',
-        year: '2019',
+        month: '',
+        year: '',
       },
-      link: 'https://openwebinars.net/cursos/react-native-intermedio/',
+      link: '',
       description:
-        'Online training recorded for spanish e-learning platform. The training is for developers who know a little bit of ReactNative and wants to learn more about the platform',
-    },
-    {
-      title: 'React Native for beginners',
-      company_medium: 'OpenWebinars',
-      date: {
-        month: 'jun',
-        year: '2019',
-      },
-      link: 'https://openwebinars.net/cursos/react-native-principiantes/',
-      description:
-        'Online training recorded for spanish e-learning platform. The training is for JS developers willing to learn the basics of ReactNative',
+        '',
     },
   ],
   education: [
     {
       school: 'Cesi | École Supérieure de l\'Alternance',
       degree: 'Titre professionel niveau Master',
-      field: 'Manager en Systèmes d\'Information option expert développement',
+      field: 'Manager en Systèmes d\'Information',
+      additionalInfo: 'Option expert développement',
       startYear: 2020,
       endYear: 2022,
+      link: ""
     },
     {
-      school: 'Université de Strasbourg',
+      school: 'IUT Robert Schumann, Université de Strasbourg',
       degree: 'License Professionelle',
+      additionalInfo: 'Mention Assez Bien',
       field: 'Conception et Dévelopement d\'Applications Distribuées',
       startYear: 2019,
       endYear: 2020,
+      link: ""
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
@@ -105,7 +142,16 @@ module.exports = {
       field: 'Informatique',
       startYear: 2016,
       endYear: 2019,
-    }
+      link: ""
+    },
+    {
+      school: 'Lycée Marguerite Yourcenar, Erstein',
+      degree: 'Baccalaureat',
+      additionalInfo: 'Spécialité Mathématiques, Section Européenne Allemand, Option Latin',
+      field: 'Scientifique',
+      startYear: 2014,
+      endYear: 2016,
+    },
   ],
   languages: [
     {
@@ -124,32 +170,46 @@ module.exports = {
       code: 'DE',
     },
   ],
-  social: {
-    twitter: 'https://twitter.com/feuxin/',
-    linkedin: 'https://www.linkedin.com/in/thibaud-ritzenthaler/',
-    github: 'https://github.com/thibaud-ritzenthaler/',
-    email: 'thibaud@ritzenthaler.eu',
-  },
-  hobbies: [
+  activities: [
     {
-      name: 'Football',
-      icon: 'FaFutbol',
+      structure: {
+        name: "Un Effort Pour Un Réconfort",
+        desc: "Association caritative de lutte contre le cancer et les maladies graves"
+      },
+      position: "Membre fondateur et vice président",
+      link: "https://fr-fr.facebook.com/uneffortpourunreconfort/",
+      image: "uepur_square.jpg",
     },
     {
-      name: 'Photography',
+      structure: {
+        name: "On s'fait une toile sur RBS",
+        desc: "Emission sur le cinéma d'une radio locale"
+      },
+      position: "Chroniqueur, Animateur et Producteur",
+      link: "https://www.radiorbs.com/",
+      image: "on_sfait_une_toile.png",
+    },
+  ],
+  hobbies: [
+    {
+      name: 'Vélo',
+      icon: 'FaBiking',
+    },
+    {
+      name: 'Photographie',
       icon: 'FaCamera',
     },
     {
-      name: 'Hiking',
-      icon: 'FaHiking',
+      name: 'Cinéma',
+      icon: 'FaVideo',
     },
     {
-      name: 'Traveling',
-      icon: 'FaPlane',
+      name: 'Jeux vidéo',
+      icon: 'FaGamepad',
     },
     {
-      name: 'Movies & Series',
-      icon: 'FaTv',
+      name: 'Natation',
+      icon: 'FaSwimmer',
     },
   ],
   siteUrl: 'https://thibaudritzenthaler.dev',
@@ -160,35 +220,31 @@ module.exports = {
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/favicon.jpg',
-  resume: '/cv_Thibaud_Ritzenthaler.pdf',
+  // resume: '/cv_Thibaud_Ritzenthaler.pdf',
   headerLinks: [
     // {
     //   label: 'Alvaro Jimenez Martin',
     //   url: '/',
     // },
     {
-      label: 'About',
+      label: 'A Propos',
       url: 'about',
-    },
-    {
-      label: 'Skills',
-      url: 'skills',
     },
     {
       label: 'Experience',
       url: 'experience',
     },
+    //{
+    //  label: 'Publications',
+    //  url: 'publications',
+    //},
     {
-      label: 'Publications',
-      url: 'publications',
-    },
-    {
-      label: 'Education',
+      label: 'Formations',
       url: 'education',
     },
     {
-      label: 'Hobbies',
-      url: 'hobbies',
+      label: 'Activitées',
+      url: 'activities',
     },
     // {
     //   label: 'Contact',

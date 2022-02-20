@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaUniversity } from 'react-icons/fa'
-import { FlagIcon } from 'react-flag-kit'
+import {FaUniversity} from 'react-icons/fa'
+import {FlagIcon} from 'react-flag-kit'
 import SectionTitle from '../sectionTitle'
 import siteConfig from '../../../data/siteConfig'
 
-const Education = ({ className }) => {
+const Education = ({className}) => {
   return (
     <div className={className}>
       <SectionTitle
         title="Education"
         name="education"
-        icon={<FaUniversity size={28} />}
+        icon={<FaUniversity size={28}/>}
       />
       <div className="education__content">
         {siteConfig.education &&
@@ -19,23 +19,25 @@ const Education = ({ className }) => {
             <React.Fragment key={`${edu.field}_${edu.degree}`}>
               <div className="education__edu">
                 <div className="education__edu-header">
-                  <span className="education__edu-school">{edu.school}</span>
+                  <span className="education__edu-studies">
+                    {edu.degree}, {edu.field}
+                  </span>
                   <span className="education__edu-date">
-                    {edu.startYear} - {edu.endYear || 'Present'}
+                    {edu.startYear} - {edu.endYear || 'Aujourd\'hui'}
                   </span>
                 </div>
-                <span className="education__edu-studies">
-                  {edu.degree}, {edu.field}
+                <span
+                  className="education__edu-school">{edu.additionalInfo && (edu.additionalInfo + " - ")}{edu.school}
                 </span>
               </div>
-              {idx < siteConfig.education.length - 1 && <hr />}
+              {idx < siteConfig.education.length - 1 && <hr/>}
             </React.Fragment>
           ))}
         {siteConfig.languages && (
           <React.Fragment>
-            <h3>Languages</h3>
+            <h3>Langues</h3>
             <ul>
-              {siteConfig.languages.map(({ code, language, level }) => (
+              {siteConfig.languages.map(({code, language, level}) => (
                 <li key={`${code}-${language}`}>
                   <div className="education__lang">
                     {code && (
@@ -76,14 +78,14 @@ export default styled(Education)`
     flex-direction: row;
     justify-content: space-between;
   }
-  .education__edu-school {
+  .education__edu-studies {
     font-weight: bold;
   }
   .education__edu-date {
     color: #bbb;
     font-size: 10px;
   }
-  .education__edu-studies {
+  .education__edu-school {
     font-size: 16px;
     font-style: italic;
   }

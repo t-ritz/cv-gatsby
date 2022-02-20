@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container, Row, Col } from 'react-awesome-styled-grid'
+import {Container, Row, Col} from 'react-awesome-styled-grid'
+import {StaticImage} from "gatsby-plugin-image"
 import {
   FaGithub,
   FaLinkedin,
@@ -17,13 +18,12 @@ import {
   SEO,
   Wrapper,
   About,
-  Skills,
   Timeline,
   Education,
   Hobbies,
+  Activities,
+  Expertise,
 } from '../components'
-
-import { StaticImage } from "gatsby-plugin-image"
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -32,21 +32,14 @@ const Separator = styled.hr`
 
 class Home extends React.Component {
   render() {
-    // validate siteConfig settings
-    if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
-      console.error(
-        'WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.'
-      )
-    }
-
     const title = siteConfig.siteTitle
-    const { keywords } = siteConfig
+    const {keywords} = siteConfig
     return (
       <div className={this.props.className}>
         <Layout location={this.props.location}>
-          <SEO title={title} keywords={keywords} />
+          <SEO title={title} keywords={keywords}/>
 
-          <Hero heroImg={siteConfig.siteCover} title={title} />
+          <Hero heroImg={siteConfig.siteCover} title={title}/>
 
           <Wrapper className={this.props.className}>
             <Container className="page-content" fluid>
@@ -65,7 +58,7 @@ class Home extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <FaGithub className="social-icon" size="32" />
+                        <FaGithub className="social-icon" size="32"/>
                       </a>
                     )}
                     {siteConfig.social.linkedin && (
@@ -75,7 +68,7 @@ class Home extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <FaLinkedin className="social-icon" size="32" />
+                        <FaLinkedin className="social-icon" size="32"/>
                       </a>
                     )}
                     {siteConfig.social.twitter && (
@@ -85,7 +78,7 @@ class Home extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <FaTwitter className="social-icon" size="32" />
+                        <FaTwitter className="social-icon" size="32"/>
                       </a>
                     )}
                     {siteConfig.social.email && (
@@ -95,7 +88,7 @@ class Home extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <FaEnvelope className="social-icon" size="32" />
+                        <FaEnvelope className="social-icon" size="32"/>
                       </a>
                     )}
                     {siteConfig.resume && (
@@ -105,7 +98,7 @@ class Home extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <FaFileAlt className="social-icon" size="28" />
+                        <FaFileAlt className="social-icon" size="28"/>
                       </a>
                     )}
                   </div>
@@ -113,24 +106,24 @@ class Home extends React.Component {
               </Row>
               <Row>
                 <Col xs={4} sm={4}>
-                  <About title="A propos" text={siteConfig.authorDescription} />
+                  <About title="A Propos" text={siteConfig.authorDescription}/>
                 </Col>
                 <Col xs={4} sm={4}>
-                  <Skills title="Competences" skills={siteConfig.skills} />
+                  <Expertise title="Competences" skills={siteConfig.expertise}/>
+                  {/*<Skills title="Competences" skills={siteConfig.skills}/> */}
                 </Col>
               </Row>
-              <Separator />
-              <Timeline />
+              <Separator/>
+              <Timeline/>
               {/* <Separator />
               <Repositories />
               <Separator />
               <Publications />*/}
-              <Separator />
-              <Education />
-              <Separator />
-              <Hobbies />
-              <Separator />
-              {/* <Contact /> */}
+              <Separator/>
+              <Education/>
+              <Activities/>
+              <Separator/>
+              <Hobbies/>
             </Container>
           </Wrapper>
         </Layout>
