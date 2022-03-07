@@ -31,5 +31,4 @@ module.exports = {
       },
       __key: "pages"
     }],
-  pathPrefix: "/cv-gatsby",
 };
