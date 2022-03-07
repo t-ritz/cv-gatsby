@@ -4,7 +4,8 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Wrapper from '../components/wrapper'
-import SEO from '../components/SEO'
+import SearchEngineOptimization from '../components/search-engine-optimization'
+import {StaticImage} from "gatsby-plugin-image";
 
 const MainTitle = styled.h1`
   line-height: 1.5;
@@ -25,7 +26,7 @@ class NotFoundPage extends React.Component {
   render() {
     return (
       <Layout location={this.props.location} noCover={true}>
-        <SEO title="Page Not Found" />
+        <SearchEngineOptimization title="Page Not Found" />
         <Hero
           heroImg='/images/404.jpeg'
           title='404'
@@ -33,7 +34,7 @@ class NotFoundPage extends React.Component {
         <Wrapper>
           <MainTitle>404 Page Not Found</MainTitle>
           <Icon>
-            <img src='/images/ufo-and-cow.svg' alt='ufo and cow' />
+            <StaticImage src='/images/ufo-and-cow.svg' alt='ufo and cow' />
           </Icon>
           <Text>
             Looks like you've followed a broken link or entered a URL that

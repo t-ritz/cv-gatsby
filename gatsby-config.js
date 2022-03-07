@@ -4,16 +4,18 @@ module.exports = {
     siteUrl: `https://thibaudritzenthaler.dev`
   },
   plugins: [
-
+    "gatsby-plugin-image",
+    "gatsby-plugin-mdx",
+    "gatsby-plugin-sharp",
     "gatsby-plugin-sitemap",
+    `gatsby-plugin-styled-components`,
+
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
         "icon": "src/images/icon.png"
       }
     },
-    "gatsby-plugin-mdx",
-    "gatsby-plugin-sharp",
     "gatsby-transformer-sharp", {
       resolve: 'gatsby-source-filesystem',
       options: {

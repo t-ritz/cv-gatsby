@@ -178,7 +178,7 @@ module.exports = {
       },
       position: "Membre fondateur et vice président",
       link: "https://fr-fr.facebook.com/uneffortpourunreconfort/",
-      image: "uepur_square.jpg",
+      image: "/images/uepur_square.jpg",
     },
     {
       structure: {
@@ -187,7 +187,7 @@ module.exports = {
       },
       position: "Chroniqueur, Animateur et Producteur",
       link: "https://www.radiorbs.com/",
-      image: "on_sfait_une_toile.png",
+      image: "/images/on_sfait_une_toile.png",
     },
   ],
   hobbies: [

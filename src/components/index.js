@@ -1,6 +1,6 @@
 import Layout from './layout'
 import Hero from './hero'
-import SEO from './SEO'
+import SearchEngineOptimization from './search-engine-optimization'
 import Wrapper from './wrapper'
 import About from './about'
 import Skills from './skills'
@@ -16,7 +16,7 @@ import Expertise from "./expertise";
 export {
   Layout,
   Hero,
-  SEO,
+  SearchEngineOptimization,
   Wrapper,
   About,
   Skills,

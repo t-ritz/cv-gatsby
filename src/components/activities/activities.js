@@ -1,4 +1,5 @@
 import React from 'react'
+import { withPrefix } from 'gatsby'
 import styled from 'styled-components'
 import siteConfig from '../../../data/siteConfig'
 import {FaHandsHelping} from 'react-icons/fa'
@@ -16,7 +17,7 @@ const Activities = ({className}) => {
       <div className="activities__content">
         {siteConfig.activities &&
           siteConfig.activities.map(activity => {
-            const imageUrl = "../../images/" + activity.image
+            const imageUrl = withPrefix(activity.image)
             return (
               <div className="activity_item" key={activity.structure.name} onClick={() => {
                 activity.link && (window.location.href = activity.link)

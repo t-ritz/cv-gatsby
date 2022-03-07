@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from "react"
 import styled from 'styled-components'
 import {Container, Row, Col} from 'react-awesome-styled-grid'
 import {StaticImage} from "gatsby-plugin-image"
@@ -15,7 +15,7 @@ import siteConfig from '../../data/siteConfig'
 import {
   Layout,
   Hero,
-  SEO,
+  SearchEngineOptimization,
   Wrapper,
   About,
   Timeline,
@@ -37,7 +37,7 @@ class Home extends React.Component {
     return (
       <div className={this.props.className}>
         <Layout location={this.props.location}>
-          <SEO title={title} keywords={keywords}/>
+          <SearchEngineOptimization title={title} keywords={keywords}/>
 
           <Hero heroImg={siteConfig.siteCover} title={title}/>
 
@@ -110,7 +110,6 @@ class Home extends React.Component {
                 </Col>
                 <Col xs={4} sm={4}>
                   <Expertise title="Competences" skills={siteConfig.expertise}/>
-                  {/*<Skills title="Competences" skills={siteConfig.skills}/> */}
                 </Col>
               </Row>
               <Separator/>
