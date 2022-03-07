@@ -12,7 +12,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby clean && gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
