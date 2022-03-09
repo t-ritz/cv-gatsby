@@ -11,7 +11,7 @@ I change this for my purposes.
 
     ```sh
     # create a new Gatsby site using the default starter
-    npx gatsby new my-default-starter https://github.com/ajimenezdev/gatsby-cv
+    npx gatsby new my-default-starter https://github.com/thibaud-ritzenthaler/gatsby-cv
     ```
 
 1.  **Start developing.**

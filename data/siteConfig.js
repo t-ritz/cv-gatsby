@@ -245,7 +245,7 @@ module.exports = {
   // resume: '/cv_Thibaud_Ritzenthaler.pdf',
   headerLinks: [
     // {
-    //   label: 'Alvaro Jimenez Martin',
+    //   label: '',
     //   url: '/',
     // },
     {
