@@ -10,7 +10,7 @@ const Activities = ({className}) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Activitées"
+        title="Activités"
         name="activities"
         icon={<FaHandsHelping size={28}/>}
       />

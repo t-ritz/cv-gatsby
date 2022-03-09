@@ -15,7 +15,13 @@ const Expertise = ({ className }) => {
       <div className="expertise__content">
         {siteConfig.expertise &&
           siteConfig.expertise.map(expertise => {
-            const icon = require('react-icons/fa')[expertise.icon]
+            // A bit ugly, change this in the future TODO
+            let icon;
+             if (expertise.icon.library === 'fa'){
+               icon = require('react-icons/fa')[expertise.icon.name]
+             } else if (expertise.icon.library === 'si') {
+               icon = require('react-icons/si')[expertise.icon.name]
+             }
             return (
               <div className="expertise_item" key={expertise.name}>
                 {React.createElement(icon, { size: 32 })}

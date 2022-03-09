@@ -9,7 +9,7 @@ const Education = ({className}) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Education"
+        title="Formations"
         name="education"
         icon={<FaUniversity size={28}/>}
       />

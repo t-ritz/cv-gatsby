@@ -9,7 +9,7 @@ const Timeline = ({className}) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Experience"
+        title="Expérience"
         name="experience"
         icon={<FaSuitcase size={28}/>}
       />

@@ -18,23 +18,45 @@ module.exports = {
   expertise: [
     {
       name: 'Magento',
-      icon: 'FaMagento',
+      icon: {
+        name:'FaMagento',
+        library:'fa'
+      }
     },
     {
       name: 'Python',
-      icon: 'FaPython',
+      icon: {
+        name: 'FaPython',
+        library:'fa'
+      }
     },
     {
       name: 'React',
-      icon: 'FaReact',
+      icon: {
+        name: 'FaReact',
+        library:'fa'
+      }
     },
     {
       name: 'Unity',
-      icon: 'FaUnity',
+      icon: {
+        name: 'FaUnity',
+        library: 'fa'
+      }
     },
     {
       name: 'Node JS',
-      icon: 'FaNodeJs',
+      icon: {
+        name:'FaNodeJs',
+        library:'fa'
+      }
+    },
+    {
+      name: 'C Sharp',
+      icon: {
+        name:'SiCsharp',
+        library: 'si'
+      }
     },
   ],
   jobs: [
