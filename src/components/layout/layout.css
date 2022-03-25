@@ -6,12 +6,15 @@ html {
 body {
   margin: 0;
 }
+footer {
+  display: flex;
+  justify-content: center;
+}
 article,
 aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 main,
 menu,

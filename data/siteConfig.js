@@ -78,7 +78,7 @@ module.exports = {
     },
     {
       company: {
-        name: 'Websurg, Institut de Recherche contre les Cancers de l\'Appareil Digestif',
+        name: 'Websurg, IRCAD',
         link: "https://websurg.com/"
       },
       begin: {
@@ -98,32 +98,15 @@ module.exports = {
         link: "https://www.intm.fr/"
       },
       begin: {
-        month: 'juil',
-        year: '2018',
-      },
-      duration: '2 mois',
-      location: 'Strasbourg - FR',
-      occupation: 'Analyste Developpeur Testeur',
-      contract: "CDD",
-      description:
-        'Suite et fin du développement d\'un chatbot administratif avec Dialogflow, dans la continuité du stage.',
-    },
-    {
-      company:
-        {
-          name: 'INTM',
-          link: "https://www.intm.fr/"
-        },
-      begin: {
         month: 'avr',
         year: '2018',
       },
-      duration: '3 mois',
+      duration: '5 mois',
       location: 'Strasbourg - FR',
-      occupation: 'Developpeur',
-      contract: "Stage",
+      occupation: 'Analyste Developpeur Testeur',
+      contract: "Stage puis CDD",
       description:
-        'Analyse et développement d\'un chatbot permettant de répondre de manière rapide aux questions administratives des employés dans le cadre d\'une ESN.',
+        'Analyse et développement d\'un chatbot permettant de répondre de manière rapide aux questions administratives des employés dans le cadre d\'une ESN avec Dialogflow.',
     },
   ],
   publications: [

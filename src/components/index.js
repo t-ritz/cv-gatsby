@@ -12,6 +12,7 @@ import Hobbies from './hobbies'
 import Contact from './contact'
 import Activities from './activities'
 import Expertise from "./expertise";
+import Footer from "./footer";
 
 export {
   Layout,
@@ -28,4 +29,5 @@ export {
   Contact,
   Activities,
   Expertise,
+  Footer,
 }
