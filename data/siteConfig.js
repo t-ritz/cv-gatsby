@@ -12,8 +12,8 @@ module.exports = {
     github: 'https://github.com/thibaud-ritzenthaler/',
     email: 'thibaud@ritzenthaler.eu',
   },
-  authorDescription: `Etudiant en alternance niveau ingénieur des Systèmes d'Information, developpeur d'extensions 
-  magento.`,
+  authorDescription: `Né en 1998 - Etudiant en alternance niveau ingénieur des Systèmes d'Information,
+  dévelopeur, analyste, testeur fullstack e-commerce.`,
   skills: [],
   expertise: [
     {
@@ -74,7 +74,7 @@ module.exports = {
       occupation: 'Analyste Developpeur Testeur Fullstack',
       contract: "Apprentissage",
       description:
-        'Analyse, développement et test d\'extensions pour Magento 2, Tierce Maintenance Applicative sur Magento 2',
+        'Analyse, conception et développement de solutions e-commerce fullstack en concertation avec l’équipe Blackbird et ses clients.',
     },
     {
       company: {
@@ -90,7 +90,8 @@ module.exports = {
       occupation: 'Analyste Developpeur Testeur Web',
       contract: "Apprentissage",
       description:
-        'Divers travaux au sein de l\'équipe WebSurg liés à la programmation web.',
+        'Au sein de l\'équipe WebSurg, création d\'applications web internes comprenant traitement ' +
+        'd\'images, machine learning, traitement de bases de données utilisateurs et interfaçage pour l’accueil des élèves.',
     },
     {
       company: {
@@ -106,7 +107,8 @@ module.exports = {
       occupation: 'Analyste Developpeur Testeur',
       contract: "Stage puis CDD",
       description:
-        'Analyse et développement d\'un chatbot permettant de répondre de manière rapide aux questions administratives des employés dans le cadre d\'une ESN avec Dialogflow.',
+        'Analyse et développement d\'un chatbot permettant de répondre de manière rapide aux questions administratives ' +
+        'des employés dans le cadre d\'une ESN avec Dialogflow.',
     },
   ],
   publications: [
@@ -124,7 +126,7 @@ module.exports = {
   ],
   education: [
     {
-      school: 'Cesi | École Supérieure de l\'Alternance',
+      school: 'CESI | École Supérieure de l\'Alternance',
       degree: 'Titre professionel niveau Master',
       field: 'Manager en Systèmes d\'Information',
       additionalInfo: 'Option expert développement',
@@ -134,7 +136,7 @@ module.exports = {
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
-      degree: 'License Professionelle',
+      degree: 'Licence Professionelle',
       additionalInfo: 'Mention Assez Bien',
       field: 'Conception et Dévelopement d\'Applications Distribuées',
       startYear: 2019,
@@ -151,7 +153,7 @@ module.exports = {
     },
     {
       school: 'Lycée Marguerite Yourcenar, Erstein',
-      degree: 'Baccalaureat',
+      degree: 'Baccalauréat',
       additionalInfo: 'Spécialité Mathématiques, Section Européenne Allemand, Option Latin',
       field: 'Scientifique',
       startYear: 2014,
@@ -236,7 +238,7 @@ module.exports = {
       url: 'about',
     },
     {
-      label: 'Experience',
+      label: 'Expérience',
       url: 'experience',
     },
     //{
@@ -248,7 +250,7 @@ module.exports = {
       url: 'education',
     },
     {
-      label: 'Activitées',
+      label: 'Activités',
       url: 'activities',
     },
     // {
