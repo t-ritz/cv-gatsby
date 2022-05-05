@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/aevq7267/ritzenthaler/thibaud/
+    - /bin/cp -R public/* $DEPLOYPATH
