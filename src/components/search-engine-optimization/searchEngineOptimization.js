@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import siteConfig from '../../../data/siteConfig'
 
 function SearchEngineOptimization({ description, lang, meta, keywords, title }) {
   return (
@@ -9,13 +10,13 @@ function SearchEngineOptimization({ description, lang, meta, keywords, title }) 
       query={detailsQuery}
       render={data => {
         const metaDescription =
-          description || data.site.siteMetadata.description
+          siteConfig.siteDescription || data.site.siteMetadata.description
         return (
           <Helmet
             htmlAttributes={{
               lang,
             }}
-            title={title}
+            title={siteConfig.siteTitle}
             titleTemplate={`%s`}
             meta={[
               {

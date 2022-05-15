@@ -33,7 +33,7 @@ const Separator = styled.hr`
 class Home extends React.Component {
   render() {
     const title = siteConfig.siteTitle
-    const {keywords} = siteConfig
+    const {keywords} = siteConfig.siteDescription
     return (
       <div className={this.props.className}>
         <Layout location={this.props.location}>
