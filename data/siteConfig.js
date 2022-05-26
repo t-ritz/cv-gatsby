@@ -196,6 +196,15 @@ module.exports = {
       link: "https://www.radiorbs.com/",
       image: "/images/on_sfait_une_toile.png",
     },
+    {
+      structure: {
+        name: "Tengu Ryu Karaté-do",
+        desc: "Shin'Kyuu Dojo"
+      },
+      position: "Praticant hebdomadaire",
+      link: "http://shinkyuudojo.free.fr/",
+      image: "/images/tengu.png",
+    },
   ],
   hobbies: [
     {
