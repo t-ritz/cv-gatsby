@@ -121,8 +121,8 @@ class Home extends React.Component {
               <Separator/>
               <Education/>
               <Activities/>
-              <Separator/>
-              <Hobbies/>
+              {/*<Separator/>
+                <Hobbies/>*/}
             </Container>
           </Wrapper>
         </Layout>

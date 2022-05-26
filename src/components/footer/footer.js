@@ -11,9 +11,9 @@ const Footer = ({className}) => {
         <b>Thibaud Ritzenthaler</b> - {new Date().getFullYear()}, built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
-        , hosted by
+        {/*, hosted by
         {` `}
-        <a href="https://github.com/thibaud-ritzenthaler/cv-gatsby">Github</a>
+          <a href="https://github.com/thibaud-ritzenthaler/cv-gatsby">Github</a>*/}
       </div>
     </footer>
   )
