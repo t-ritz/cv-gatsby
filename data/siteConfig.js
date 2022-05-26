@@ -58,6 +58,27 @@ module.exports = {
         library: 'si'
       }
     },
+    {
+      name: 'Docker',
+      icon: {
+        name:'FaDocker',
+        library: 'fa'
+      }
+    },
+    {
+      name: 'API',
+      icon: {
+        name:'FaHandshake',
+        library: 'fa'
+      }
+    },
+    {
+      name: 'Devops',
+      icon: {
+        name:'FaServer',
+        library: 'fa'
+      }
+    },
   ],
   jobs: [
     {
