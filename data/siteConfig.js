@@ -13,7 +13,8 @@ module.exports = {
     email: 'thibaud@ritzenthaler.eu',
   },
   authorDescription: `Né en 1998 - Etudiant en alternance niveau ingénieur des Systèmes d'Information,
-  dévelopeur, analyste, testeur fullstack e-commerce.`,
+  dévelopeur, analyste, testeur fullstack e-commerce.
+  A la recherche d'un poste après mes études fin 2022.`,
   skills: [],
   expertise: [
     {
@@ -95,7 +96,8 @@ module.exports = {
       occupation: 'Analyste Developpeur Testeur Fullstack',
       contract: "Apprentissage",
       description:
-        'Analyse, conception et développement de solutions e-commerce fullstack en concertation avec l’équipe Blackbird et ses clients.',
+        'Analyse, conception et développement de solutions e-commerce fullstack en concertation avec l’équipe Blackbird et ses clients.\n' +
+        'Gestion de la connexion entre ERP, CRM, PIM et site E-commerce via API REST et GraphQl.\n',
     },
     {
       company: {
