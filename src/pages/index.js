@@ -7,7 +7,7 @@ import {
   FaLinkedin,
   FaEnvelope,
   FaTwitter,
-  FaFileAlt,
+  FaFileDownload,
 } from 'react-icons/fa'
 import siteConfig from '../../data/siteConfig'
 
@@ -98,7 +98,7 @@ class Home extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <FaFileAlt className="social-icon" size="28"/>
+                        <FaFileDownload className="social-icon" size="28"/>
                       </a>
                     )}
                   </div>

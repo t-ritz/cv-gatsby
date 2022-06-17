@@ -13,8 +13,7 @@ module.exports = {
     email: 'thibaud@ritzenthaler.eu',
   },
   authorDescription: `Né en 1998 - Etudiant en alternance niveau ingénieur des Systèmes d'Information,
-  dévelopeur, analyste, testeur fullstack e-commerce.
-  A la recherche d'un poste après mes études fin 2022.`,
+  dévelopeur, analyste, testeur fullstack e-commerce.`,
   skills: [],
   expertise: [
     {
@@ -67,9 +66,9 @@ module.exports = {
       }
     },
     {
-      name: 'API',
+      name: 'R',
       icon: {
-        name:'FaHandshake',
+        name:'FaRProject',
         library: 'fa'
       }
     },
@@ -259,7 +258,7 @@ module.exports = {
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/favicon.jpg',
-  // resume: '/cv_Thibaud_Ritzenthaler.pdf',
+  resume: '/cv_Thibaud_Ritzenthaler.pdf',
   headerLinks: [
     // {
     //   label: '',
