@@ -160,7 +160,7 @@ module.exports = {
       school: 'IUT Robert Schumann, Université de Strasbourg',
       degree: 'Licence Professionelle',
       additionalInfo: 'Mention Assez Bien',
-      field: 'Conception et Dévelopement d\'Applications Distribuées',
+      field: 'Conception et Développement d\'Applications Distribuées',
       startYear: 2019,
       endYear: 2020,
       link: ""
