@@ -149,7 +149,7 @@ module.exports = {
   education: [
     {
       school: 'CESI | École Supérieure de l\'Alternance',
-      degree: 'Titre professionel niveau Master',
+      degree: 'Titre professionnel niveau Master',
       field: 'Manager en Systèmes d\'Information',
       additionalInfo: 'Option expert développement',
       startYear: 2020,
@@ -158,7 +158,7 @@ module.exports = {
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
-      degree: 'Licence Professionelle',
+      degree: 'Licence Professionnelle',
       additionalInfo: 'Mention Assez Bien',
       field: 'Conception et Développement d\'Applications Distribuées',
       startYear: 2019,
