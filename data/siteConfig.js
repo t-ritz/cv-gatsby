@@ -12,8 +12,7 @@ module.exports = {
     github: 'https://github.com/thibaud-ritzenthaler/',
     email: 'thibaud@ritzenthaler.eu',
   },
-  authorDescription: `Né en 1998 - Etudiant en alternance niveau ingénieur des Systèmes d'Information,
-  dévelopeur, analyste, testeur fullstack e-commerce.`,
+  authorDescription: `Né en 1998 – Etudiant en Master Démographie, niveau master en Systèmes d’Informations`,
   skills: [],
   expertise: [
     {
