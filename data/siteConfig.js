@@ -17,6 +17,13 @@ module.exports = {
   skills: [],
   expertise: [
     {
+      name: 'R',
+      icon: {
+        name:'FaRProject',
+        library: 'fa'
+      }
+    },
+    {
       name: 'Magento',
       icon: {
         name:'FaMagento',
@@ -62,13 +69,6 @@ module.exports = {
       name: 'Docker',
       icon: {
         name:'FaDocker',
-        library: 'fa'
-      }
-    },
-    {
-      name: 'R',
-      icon: {
-        name:'FaRProject',
         library: 'fa'
       }
     },
@@ -147,6 +147,15 @@ module.exports = {
     },
   ],
   education: [
+    {
+      school: 'Université de Strasbourg',
+      degree: 'Master',
+      field: 'Démographie',
+      additionalInfo: 'En cours',
+      startYear: 2022,
+      endYear: 2024,
+      link: ""
+    },
     {
       school: 'CESI | École Supérieure de l\'Alternance',
       degree: 'Titre professionnel niveau Master',
