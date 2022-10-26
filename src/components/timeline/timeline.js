@@ -3,18 +3,17 @@ import styled from 'styled-components'
 import {config} from 'react-awesome-styled-grid'
 import {FaSuitcase} from 'react-icons/fa'
 import SectionTitle from '../sectionTitle'
-import siteConfig from '../../../data/siteConfig'
 
-const Timeline = ({className}) => {
+const Timeline = ({ title, className, siteConfig}) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Expérience"
+        title={title}
         name="experience"
         icon={<FaSuitcase size={28}/>}
       />
       {siteConfig.jobs &&
-        siteConfig.jobs.map(job => (
+        siteConfig.jobs.list.map(job => (
           <article
             key={job.begin.month + job.begin.year}
             className="timeline__item"
@@ -27,12 +26,12 @@ const Timeline = ({className}) => {
               <h2 className="timeline__title" onClick={() => {
                 job.company.link && (window.location.href = job.company.link)
               }}>
-                {job.occupation} chez {job.company.name} <br/>
+                {job.occupation}{siteConfig.jobs.labelAt}{job.company.name} <br/>
                 <small className="timeline__title--small">
                   {job.location}{' '}
                 </small>
                 <small className="timeline__title--small timeline__title--right">
-                  {job.duration || 'Actuellement'}
+                  {job.duration || siteConfig.jobs.labelToday}
                 </small>
               </h2>
               <p><i>{job.contract}</i> - {job.description}</p>

@@ -2,13 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import { FaCode } from 'react-icons/fa'
 import SectionTitle from '../sectionTitle'
-import siteConfig from '../../../data/siteConfig'
 
-const Expertise = ({ className }) => {
+const Expertise = ({ title, siteConfig, className}) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Compétences"
+        title={title}
         name="expertise"
         icon={<FaCode size={28} />}
       />

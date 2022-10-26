@@ -3,13 +3,12 @@ import styled from 'styled-components'
 import {FaUniversity} from 'react-icons/fa'
 import {FlagIcon} from 'react-flag-kit'
 import SectionTitle from '../sectionTitle'
-import siteConfig from '../../../data/siteConfig'
 
-const Education = ({className}) => {
+const Education = ({ title, siteConfig, className}) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Formations"
+        title={title}
         name="education"
         icon={<FaUniversity size={28}/>}
       />
@@ -33,11 +32,11 @@ const Education = ({className}) => {
               {idx < siteConfig.education.length - 1 && <hr/>}
             </React.Fragment>
           ))}
-        {siteConfig.languages && (
+        {siteConfig.languages.list && (
           <React.Fragment>
-            <h3>Langues</h3>
+            <h3>{siteConfig.languages.title}</h3>
             <ul>
-              {siteConfig.languages.map(({code, language, level}) => (
+              {siteConfig.languages.list.map(({code, language, level}) => (
                 <li key={`${code}-${language}`}>
                   <div className="education__lang">
                     {code && (

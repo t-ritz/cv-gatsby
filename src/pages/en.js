@@ -9,7 +9,7 @@ import {
   FaTwitter,
   FaFileDownload,
 } from 'react-icons/fa'
-import siteConfig from '../../data/siteConfig'
+import siteConfig from '../../data/siteConfigEn'
 
 
 import {
@@ -36,7 +36,7 @@ class Home extends React.Component {
     const {keywords} = siteConfig.siteDescription
     return (
       <div className={this.props.className}>
-        <Layout headerLinks={siteConfig.headerLinks} location={this.props.location}>
+        <Layout headerLinks={siteConfig.headerLinks} location={this.props.location} >
           <SearchEngineOptimization title={title} keywords={keywords}/>
 
           <Hero heroImg={siteConfig.siteCover} title={title}/>
@@ -106,21 +106,21 @@ class Home extends React.Component {
               </Row>
               <Row>
                 <Col xs={4} sm={4}>
-                  <About title="A Propos" siteConfig={siteConfig}/>
+                  <About title="About" siteConfig={siteConfig}/>
                 </Col>
                 <Col xs={4} sm={4}>
-                  <Expertise title="Competences" siteConfig={siteConfig}/>
+                  <Expertise title="Expertise" siteConfig={siteConfig}/>
                 </Col>
               </Row>
               <Separator/>
-              <Timeline title="Expérience" siteConfig={siteConfig}/>
+              <Timeline title="Experience" siteConfig={siteConfig}/>
               {/* <Separator />
               <Repositories />
               <Separator />
               <Publications />*/}
               <Separator/>
-              <Education title="Formations" siteConfig={siteConfig}/>
-              <Activities title="Activité"  siteConfig={siteConfig}/>
+              <Education title="Education" siteConfig={siteConfig}/>
+              <Activities title="Activity" siteConfig={siteConfig}/>
               {/*<Separator/>
                 <Hobbies/>*/}
             </Container>

@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { FaHome, FaBars } from 'react-icons/fa'
+import { FaHome, FaBars, FaGlobe } from 'react-icons/fa'
 import { Link, animateScroll as scroll } from 'react-scroll'
-import siteConfig from '../../../data/siteConfig'
-const { headerLinks } = siteConfig
 
 const HeaderWrapper = styled.header`
   position: fixed;
@@ -54,8 +52,10 @@ const HeaderLink = styled(Link)`
   }
 `
 
-const Header = ({ className }) => {
+const Header = ({ className, headerLinks }) => {
   const [toggled, setToggled] = useState(false)
+  const indexEn = window.location.href.search(/(\/en)/g)
+  const [changingUrl, ] = useState(indexEn === -1 ? window.location.href + 'en/' : window.location.href.replace("/en/", ""))
   return (
     <HeaderWrapper className={className}>
       <HeaderNav className="header">
@@ -88,6 +88,11 @@ const Header = ({ className }) => {
             onClick={() => setToggled(!toggled)}
           />
         </div>
+        <FaGlobe
+          size={32}
+          className="header__homeIcon"
+          onClick={() => window.location.replace(changingUrl) }
+        />
       </HeaderNav>
     </HeaderWrapper>
   )

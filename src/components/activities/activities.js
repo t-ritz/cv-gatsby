@@ -1,16 +1,15 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
 import styled from 'styled-components'
-import siteConfig from '../../../data/siteConfig'
 import {FaHandsHelping} from 'react-icons/fa'
 import SectionTitle from '../sectionTitle'
 
 
-const Activities = ({className}) => {
+const Activities = ({title, className, siteConfig}) => {
   return (
     <div className={className}>
       <SectionTitle
-        title="Activités"
+        title={title}
         name="activities"
         icon={<FaHandsHelping size={28}/>}
       />

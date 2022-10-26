@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: "Thibaud Ritzenthaler",
-  siteDescription: `CV de Thibaud Ritzenthaler`,
+  siteDescription: `CV of Thibaud Ritzenthaler`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Thibaud Ritzenthaler',
   //twitterUsername: 'thibaudRtz',
@@ -12,7 +12,7 @@ module.exports = {
     github: 'https://github.com/thibaud-ritzenthaler/',
     email: 'thibaud@ritzenthaler.eu',
   },
-  authorDescription: `Né en 1998 – Etudiant en Master Démographie, niveau master en Systèmes d’Informations`,
+  authorDescription: `Born in 1998 - A enthusiastic adaptable IT Engineering School graduate with 3 years experience in web development. Specific expertise in Magento ecommerce framework. Proven ability in software architecture. Seeking an opportunity in social science software engineering.`,
   skills: [],
   expertise: [
     {
@@ -80,8 +80,8 @@ module.exports = {
     },
   ],
   jobs: {
-    labelAt: ' chez ',
-    labelToday: 'Actuellement',
+    labelAt: ' at ',
+    labelToday: 'Today',
     list: [
       {
         company: {
@@ -92,13 +92,13 @@ module.exports = {
           month: 'oct',
           year: '2020',
         },
-        duration: '2 ans',
+        duration: '2 years',
         location: 'Strasbourg - FR',
-        occupation: 'Analyste Developpeur Testeur Fullstack',
-        contract: "Apprentissage",
+        occupation: 'Fullstack Analyst Developer Tester',
+        contract: 'Apprenticeship',
         description:
-          'Analyse, conception et développement de solutions e-commerce fullstack en concertation avec l’équipe Blackbird et ses clients.\n' +
-          'Gestion de la connexion entre ERP, CRM, PIM et site E-commerce via API REST et GraphQl.\n',
+          'Analysis, design and development of fullstack e-commerce solutions in collaboration with the Blackbird team and its customers.\n' +
+          'Manage the connection between ERP, CRM, PIM and E-commerce site via REST API and GraphQl.\n',
       },
       {
         company: {
@@ -109,13 +109,13 @@ module.exports = {
           month: 'sep',
           year: '2019',
         },
-        duration: '1 an et 1 mois',
+        duration: '1 year et 1 month',
         location: 'Strasbourg - FR',
-        occupation: 'Analyste Developpeur Testeur Web',
-        contract: "Apprentissage",
+        occupation: 'Web Analyst Developer Tester',
+        contract: "Apprenticeship",
         description:
-          'Au sein de l\'équipe WebSurg, création d\'applications web internes comprenant traitement ' +
-          'd\'images, machine learning, traitement de bases de données utilisateurs et interfaçage pour l’accueil des élèves.',
+          'Within the WebSurg team, creation of internal web applications including image processing,' +
+          ' machine learning, user database processing, and interfacing for student onboarding.',
       },
       {
         company: {
@@ -123,16 +123,16 @@ module.exports = {
           link: "https://www.intm.fr/"
         },
         begin: {
-          month: 'avr',
+          month: 'apr',
           year: '2018',
         },
-        duration: '5 mois',
+        duration: '5 month',
         location: 'Strasbourg - FR',
-        occupation: 'Analyste Developpeur Testeur',
-        contract: "Stage puis CDD",
+        occupation: 'Analyst Developer Tester',
+        contract: "Internship then fixed-term contract",
         description:
-          'Analyse et développement d\'un chatbot permettant de répondre de manière rapide aux questions administratives ' +
-          'des employés dans le cadre d\'une ESN avec Dialogflow.',
+          'Analysis and development of a chatbot allowing to answer quickly to the administrative questions ' +
+          'of the employees in the framework of an IT consulting company with Dialogflow.',
       },
     ]
   },
@@ -152,86 +152,85 @@ module.exports = {
   education: [
     {
       school: 'Université de Strasbourg',
-      degree: 'Master',
-      field: 'Démographie',
-      additionalInfo: 'En cours',
+      degree: 'Master Degree in Social Science',
+      field: 'Demography',
+      additionalInfo: 'Ongoing',
       startYear: 2022,
       endYear: 2024,
       link: ""
     },
     {
       school: 'CESI | École Supérieure de l\'Alternance',
-      degree: 'Titre professionnel niveau Master',
-      field: 'Manager en Systèmes d\'Information',
-      additionalInfo: 'Option expert développement',
+      degree: 'Master Degree in Science',
+      field: 'IT Management',
+      additionalInfo: 'Development Specialist',
       startYear: 2020,
       endYear: 2022,
       link: ""
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
-      degree: 'Licence Professionnelle',
-      additionalInfo: 'Mention Assez Bien',
-      field: 'Conception et Développement d\'Applications Distribuées',
+      degree: 'Bachelor\'s Degree in Science',
+      additionalInfo: 'with merit',
+      field: ' Web Development and IT',
       startYear: 2019,
       endYear: 2020,
       link: ""
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
-      degree: 'Diplôme Universitaire de Technologie',
-      field: 'Informatique',
+      degree: 'Two-year university degree in technology',
+      field: 'IT',
       startYear: 2016,
       endYear: 2019,
       link: ""
     },
     {
       school: 'Lycée Marguerite Yourcenar, Erstein',
-      degree: 'Baccalauréat',
-      additionalInfo: 'Spécialité Mathématiques, Section Européenne Allemand, Option Latin',
-      field: 'Scientifique',
+      degree: 'A-Level Diploma',
+      additionalInfo: 'Specialized in mathematics, Latin specialization, German European Section',
+      field: 'Science',
       startYear: 2014,
       endYear: 2016,
     },
   ],
   languages: {
-    title: 'Langue',
+    title: 'Language',
     list: [
       {
-        language: 'Français',
-        level: 'Langue maternelle',
+        language: 'French',
+        level: 'Native language - Langue maternelle',
         code: 'FR',
       },
       {
-        language: 'Anglais',
+        language: 'English',
         level: 'C1 - Fluid Written & Spoken',
         code: 'GB',
       },
       {
-        language: 'Allemand',
+        language: 'German',
         level: 'B1',
         code: 'DE',
       },
     ]
   },
-
   activities: [
     {
       structure: {
         name: "Un Effort Pour Un Réconfort",
-        desc: "Association caritative de lutte contre le cancer et les maladies graves"
+        desc: "Cancer and Critical Illness Charity"
       },
-      position: "Membre fondateur et vice président",
+      position: "Founding member and vice president",
       link: "https://fr-fr.facebook.com/uneffortpourunreconfort/",
       image: "/images/uepur_square.jpg",
     },
     {
       structure: {
         name: "On s'fait une toile sur RBS",
-        desc: "Emission sur le cinéma sur une radio locale"
+        desc: "Broadcast on cinema on a local radio"
       },
-      position: "Chroniqueur, Animateur et Producteur",
-      link: "https://onsfaitunetoile.fr/\"",
+      position: "Host and Producer",
+      link: "https://onsfaitunetoile.fr/",
       image: "/images/on_sfait_une_toile.png",
     },
     {
@@ -239,7 +238,7 @@ module.exports = {
         name: "Tengu Ryu Karaté-do",
         desc: "Shin'Kyuu Dojo"
       },
-      position: "Praticant hebdomadaire",
+      position: "Weekly exerciser",
       link: "http://shinkyuudojo.free.fr/",
       image: "/images/tengu.png",
     },
@@ -274,18 +273,18 @@ module.exports = {
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/favicon.jpg',
-  resume: '/cv_Thibaud_Ritzenthaler.pdf',
+  resume: '/cv_Thibaud_Ritzenthaler_en.pdf',
   headerLinks: [
     // {
     //   label: '',
     //   url: '/',
     // },
     {
-      label: 'A Propos',
+      label: 'About',
       url: 'about',
     },
     {
-      label: 'Expérience',
+      label: 'Experience',
       url: 'experience',
     },
     //{
@@ -293,11 +292,11 @@ module.exports = {
     //  url: 'publications',
     //},
     {
-      label: 'Formations',
+      label: 'Education',
       url: 'education',
     },
     {
-      label: 'Activités',
+      label: 'Activity',
       url: 'activities',
     },
     // {
