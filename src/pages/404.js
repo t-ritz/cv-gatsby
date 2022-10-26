@@ -6,6 +6,8 @@ import Hero from '../components/hero'
 import Wrapper from '../components/wrapper'
 import SearchEngineOptimization from '../components/search-engine-optimization'
 import {StaticImage} from "gatsby-plugin-image";
+import siteConfig from '../../data/siteConfig'
+
 
 const MainTitle = styled.h1`
   line-height: 1.5;
@@ -25,7 +27,7 @@ const Text = styled.p`
 class NotFoundPage extends React.Component {
   render() {
     return (
-      <Layout location={this.props.location} noCover={true}>
+      <Layout headerLinks={siteConfig.headerLinks} location={this.props.location} noCover={true}>
         <SearchEngineOptimization title="Page Not Found" />
         <Hero
           heroImg='/images/404.jpeg'
