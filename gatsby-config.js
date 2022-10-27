@@ -25,14 +25,6 @@ module.exports = {
       __key: "images"
     },
     {
-      resolve: 'gatsby-plugin-i18n',
-      options: {
-        langKeyDefault: 'fr',
-        useLangKeyLayout: false,
-        prefixDefault: false
-      }
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "pages",

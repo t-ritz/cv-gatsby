@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { navigate } from 'gatsby'
 import styled from 'styled-components'
 import { FaHome, FaBars, FaGlobe } from 'react-icons/fa'
 import { Link, animateScroll as scroll } from 'react-scroll'
@@ -52,10 +53,12 @@ const HeaderLink = styled(Link)`
   }
 `
 
-const Header = ({ className, headerLinks }) => {
+const Header = ({ className, headerLinks, location}) => {
   const [toggled, setToggled] = useState(false)
-  const indexEn = window.location.href.search(/(\/en)/g)
-  const [changingUrl, ] = useState(indexEn === -1 ? window.location.href + 'en/' : window.location.href.replace("/en/", ""))
+  // Two language system
+  const indexEn = location.pathname.search(/(\/en)/g)
+  const [path,] = useState(indexEn === -1 ? '/en' : '/')
+
   return (
     <HeaderWrapper className={className}>
       <HeaderNav className="header">
@@ -91,7 +94,7 @@ const Header = ({ className, headerLinks }) => {
         <FaGlobe
           size={32}
           className="header__homeIcon"
-          onClick={() => window.location.replace(changingUrl) }
+          onClick={() => navigate(path)}
         />
       </HeaderNav>
     </HeaderWrapper>
