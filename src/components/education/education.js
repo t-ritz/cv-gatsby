@@ -26,7 +26,8 @@ const Education = ({ title, siteConfig, className}) => {
                   </span>
                 </div>
                 <span
-                  className="education__edu-school">{edu.additionalInfo && (edu.additionalInfo + " - ")}{edu.school}
+                  className="education__edu-school">{edu.additionalInfo && (edu.additionalInfo + " - ")}
+                  <a href={edu.link} target="_blank" rel="noopener noreferrer">{edu.school}</a>
                 </span>
               </div>
               {idx < siteConfig.education.length - 1 && <hr/>}
@@ -37,7 +38,7 @@ const Education = ({ title, siteConfig, className}) => {
             <h3>{siteConfig.languages.title}</h3>
             <ul>
               {siteConfig.languages.list.map(({code, language, level}) => (
-                <li key={`${code}-${language}`}>
+                <li className="education__lang_li" key={`${code}-${language}`}>
                   <div className="education__lang">
                     {code && (
                       <FlagIcon
@@ -67,6 +68,7 @@ export default styled(Education)`
   .education__content {
     margin-bottom: 40px;
   }
+  
   .education__edu {
     display: flex;
     flex-direction: column;
@@ -87,6 +89,21 @@ export default styled(Education)`
   .education__edu-school {
     font-size: 16px;
     font-style: italic;
+  }
+  .education__edu-school a {
+    color: #4F657D;
+     text-decoration: none;
+     font-style: normal;
+     transition : color 0.5s;
+  }
+  .education__edu-school a:visited {
+    
+  }
+  .education__edu-school a:hover {
+    color : #758EA9;
+  }
+  .education__lang_li {
+    list-style: none;
   }
   .education__lang {
     display: flex;

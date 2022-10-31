@@ -119,8 +119,8 @@ class Home extends React.Component {
               <Separator />
               <Publications />*/}
               <Separator/>
-              <Education title="Formations" siteConfig={siteConfig}/>
-              <Activities title="Activité"  siteConfig={siteConfig}/>
+              <Education title="Formation" siteConfig={siteConfig}/>
+              <Activities title="Activités"  siteConfig={siteConfig}/>
               {/*<Separator/>
                 <Hobbies/>*/}
             </Container>
@@ -160,6 +160,7 @@ export default styled(Home)`
   .social-link {
     padding: 8px;
     color: #555;
+    transition: color 0.15s;
   }
 
   a.social-link.twitter:hover {

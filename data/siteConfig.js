@@ -151,13 +151,13 @@ module.exports = {
   ],
   education: [
     {
-      school: 'Université de Strasbourg',
+      school: 'IDUS, Université de Strasbourg',
       degree: 'Master',
       field: 'Démographie',
       additionalInfo: 'En cours',
       startYear: 2022,
       endYear: 2024,
-      link: ""
+      link: "https://idus.unistra.fr/"
     },
     {
       school: 'CESI | École Supérieure de l\'Alternance',
@@ -166,7 +166,7 @@ module.exports = {
       additionalInfo: 'Option expert développement',
       startYear: 2020,
       endYear: 2022,
-      link: ""
+      link: "https://strasbourg.cesi.fr/"
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
@@ -175,7 +175,7 @@ module.exports = {
       field: 'Conception et Développement d\'Applications Distribuées',
       startYear: 2019,
       endYear: 2020,
-      link: ""
+      link: "https://iutrs.unistra.fr/"
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
@@ -183,7 +183,7 @@ module.exports = {
       field: 'Informatique',
       startYear: 2016,
       endYear: 2019,
-      link: ""
+      link: "https://iutrs.unistra.fr/"
     },
     {
       school: 'Lycée Marguerite Yourcenar, Erstein',
@@ -192,10 +192,11 @@ module.exports = {
       field: 'Scientifique',
       startYear: 2014,
       endYear: 2016,
+      link: "http://www.lyc-yourcenar-erstein.site.ac-strasbourg.fr/"
     },
   ],
   languages: {
-    title: 'Langue',
+    title: 'Langues',
     list: [
       {
         language: 'Français',
@@ -209,7 +210,7 @@ module.exports = {
       },
       {
         language: 'Allemand',
-        level: 'B1',
+        level: 'B1 - In einer Alltagssprache gesprochen und geschrieben',
         code: 'DE',
       },
     ]
@@ -276,10 +277,6 @@ module.exports = {
   icon: 'src/favicon.jpg',
   resume: '/cv_Thibaud_Ritzenthaler.pdf',
   headerLinks: [
-    // {
-    //   label: '',
-    //   url: '/',
-    // },
     {
       label: 'A Propos',
       url: 'about',
@@ -293,7 +290,7 @@ module.exports = {
     //  url: 'publications',
     //},
     {
-      label: 'Formations',
+      label: 'Formation',
       url: 'education',
     },
     {

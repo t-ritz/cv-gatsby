@@ -86,7 +86,7 @@ module.exports = {
       {
         company: {
           name: 'Blackbird',
-          link: "https://black.bird.eu/"
+          link: "https://black.bird.eu/en/"
         },
         begin: {
           month: 'oct',
@@ -103,7 +103,7 @@ module.exports = {
       {
         company: {
           name: 'Websurg, IRCAD',
-          link: "https://websurg.com/"
+          link: "https://websurg.com/en/"
         },
         begin: {
           month: 'sep',
@@ -120,7 +120,7 @@ module.exports = {
       {
         company: {
           name: 'INTM',
-          link: "https://www.intm.fr/"
+          link: "https://intm.com/en/"
         },
         begin: {
           month: 'apr',
@@ -151,13 +151,13 @@ module.exports = {
   ],
   education: [
     {
-      school: 'Université de Strasbourg',
+      school: 'IDUS, Université de Strasbourg',
       degree: 'Master Degree in Social Science',
       field: 'Demography',
       additionalInfo: 'Ongoing',
       startYear: 2022,
       endYear: 2024,
-      link: ""
+      link: "https://idus.unistra.fr/"
     },
     {
       school: 'CESI | École Supérieure de l\'Alternance',
@@ -166,16 +166,16 @@ module.exports = {
       additionalInfo: 'Development Specialist',
       startYear: 2020,
       endYear: 2022,
-      link: ""
+      link: "https://www.cesi.fr/en/"
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
       degree: 'Bachelor\'s Degree in Science',
-      additionalInfo: 'with merit',
+      additionalInfo: 'With merit',
       field: ' Web Development and IT',
       startYear: 2019,
       endYear: 2020,
-      link: ""
+      link: "https://iutrs.unistra.fr/english"
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
@@ -183,7 +183,7 @@ module.exports = {
       field: 'IT',
       startYear: 2016,
       endYear: 2019,
-      link: ""
+      link: "https://iutrs.unistra.fr/english"
     },
     {
       school: 'Lycée Marguerite Yourcenar, Erstein',
@@ -192,6 +192,7 @@ module.exports = {
       field: 'Science',
       startYear: 2014,
       endYear: 2016,
+      link: "http://www.lyc-yourcenar-erstein.site.ac-strasbourg.fr/"
     },
   ],
   languages: {
@@ -209,7 +210,7 @@ module.exports = {
       },
       {
         language: 'German',
-        level: 'B1',
+        level: 'B1 - In einer Alltagssprache gesprochen und geschrieben',
         code: 'DE',
       },
     ]
@@ -275,10 +276,6 @@ module.exports = {
   icon: 'src/favicon.jpg',
   resume: '/cv_Thibaud_Ritzenthaler_en.pdf',
   headerLinks: [
-    // {
-    //   label: '',
-    //   url: '/',
-    // },
     {
       label: 'About',
       url: 'about',

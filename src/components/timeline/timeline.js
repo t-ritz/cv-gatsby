@@ -4,7 +4,7 @@ import {config} from 'react-awesome-styled-grid'
 import {FaSuitcase} from 'react-icons/fa'
 import SectionTitle from '../sectionTitle'
 
-const Timeline = ({ title, className, siteConfig}) => {
+const Timeline = ({title, className, siteConfig}) => {
   return (
     <div className={className}>
       <SectionTitle
@@ -23,10 +23,14 @@ const Timeline = ({ title, className, siteConfig}) => {
                 <span className="timeline__month">{job.begin.month}</span>
                 <span className="timeline__year">{job.begin.year}</span>
               </span>
-              <h2 className="timeline__title" onClick={() => {
-                job.company.link && (window.location.href = job.company.link)
-              }}>
-                {job.occupation}{siteConfig.jobs.labelAt}{job.company.name} <br/>
+              <h2 className="timeline__title">
+                {job.occupation}{siteConfig.jobs.labelAt}
+                <span className="timeline__company">
+                  <a href={job.company.link} target="_blank" rel="noopener noreferrer">
+                    {job.company.name}
+                  </a>
+                </span>
+                <br/>
                 <small className="timeline__title--small">
                   {job.location}{' '}
                 </small>
@@ -107,7 +111,6 @@ export default styled(Timeline)`
     text-transform: uppercase;
     border-radius: 3px 3px 0 0;
     position: relative;
-    cursor: pointer;
   }
   .timeline__title:after {
     content: '';
@@ -133,6 +136,22 @@ export default styled(Timeline)`
   .timeline__title {
     background: #25303b;
   }
+  
+   .timeline__company {
+      transition: font-size 0.35s;
+   }
+  
+  .timeline__company:hover {
+    font-size: 21px;
+    
+  }
+  
+  .timeline__company a {
+     text-decoration: none;
+     font-style: normal;
+     color: #E5E8B6;
+
+   }
   .timeline__title:after {
     background: #25303b;
   }
