@@ -23,9 +23,9 @@ module.exports = {
       }
     },
     {
-      name: 'SQL',
+      name: 'Magento',
       icon: {
-        name: 'FaDatabase',
+        name: 'FaMagento',
         library: 'fa'
       }
     },
@@ -44,9 +44,9 @@ module.exports = {
       }
     },
     {
-      name: 'Magento',
+      name: 'Unity',
       icon: {
-        name: 'FaMagento',
+        name: 'FaUnity',
         library: 'fa'
       }
     },
