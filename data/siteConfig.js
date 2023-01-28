@@ -205,12 +205,12 @@ module.exports = {
       },
       {
         language: 'Anglais',
-        level: 'C1 - Fluid Written & Spoken',
+        level: 'C1 - TOEIC : 980 - Fluid Written & Spoken',
         code: 'GB',
       },
       {
         language: 'Allemand',
-        level: 'B1 - In einer Alltagssprache gesprochen und geschrieben',
+        level: 'B1 - Gesprochen und geschrieben in Alltagssprache',
         code: 'DE',
       },
     ]
