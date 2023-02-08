@@ -160,7 +160,7 @@ module.exports = {
       link: "https://idus.unistra.fr/"
     },
     {
-      school: 'CESI | École Supérieure de l\'Alternance',
+      school: 'CESI',
       degree: 'Master Degree in Science',
       field: 'IT Management',
       additionalInfo: 'Development Specialist',
@@ -239,7 +239,7 @@ module.exports = {
         name: "Tengu Ryu Karaté-do",
         desc: "Shin'Kyuu Dojo"
       },
-      position: "Weekly exerciser",
+      position: "Weekly exerciser - 5th Ryu",
       link: "http://shinkyuudojo.free.fr/",
       image: "/images/tengu.png",
     },

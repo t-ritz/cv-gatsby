@@ -85,6 +85,7 @@ export default styled(Education)`
   .education__edu-date {
     color: #bbb;
     font-size: 10px;
+    min-width: 60px;
   }
   .education__edu-school {
     font-size: 16px;

@@ -160,9 +160,9 @@ module.exports = {
       link: "https://idus.unistra.fr/"
     },
     {
-      school: 'CESI | École Supérieure de l\'Alternance',
-      degree: 'Titre professionnel niveau Master',
-      field: 'Manager en Systèmes d\'Information',
+      school: 'CESI',
+      degree: 'Titre professionnel niveau 7 (Master)',
+      field: 'Manager en architecture et applications logicielles des systèmes d’information',
       additionalInfo: 'Option expert développement',
       startYear: 2020,
       endYear: 2022,
@@ -232,7 +232,7 @@ module.exports = {
         desc: "Emission sur le cinéma sur une radio locale"
       },
       position: "Chroniqueur, Animateur et Producteur",
-      link: "https://onsfaitunetoile.fr/\"",
+      link: "https://onsfaitunetoile.fr/",
       image: "/images/on_sfait_une_toile.png",
     },
     {
@@ -240,7 +240,7 @@ module.exports = {
         name: "Tengu Ryu Karaté-do",
         desc: "Shin'Kyuu Dojo"
       },
-      position: "Praticant hebdomadaire",
+      position: "Praticant hebdomadaire - 5eme Ryu",
       link: "http://shinkyuudojo.free.fr/",
       image: "/images/tengu.png",
     },
