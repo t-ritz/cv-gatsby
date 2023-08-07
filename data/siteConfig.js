@@ -97,7 +97,7 @@ module.exports = {
         occupation: 'Valorisation et évolution des données du DataLab',
         contract: "Stage",
         description:
-          'Dans l\'équipe du DataLab de l\'Ined, recensement et valorisation des données historiques, documentation ' +
+          'Dans l\'équipe du DataLab de l\'Ined, recensement et valorisation des données démographiques, documentation ' +
           'pour les évolution en matière de bonnes pratiques, analyse et documentation pour les API. Création et documentation du style en SCSS.\n',
       },
       {
