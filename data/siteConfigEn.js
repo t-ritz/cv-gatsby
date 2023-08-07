@@ -85,6 +85,23 @@ module.exports = {
     list: [
       {
         company: {
+          name: 'Institut National d\'Études Démographiques',
+          link: "https://www.ined.fr/en/"
+        },
+        begin: {
+          month: 'may',
+          year: '2023',
+        },
+        duration: '3 months',
+        location: 'Paris - FR',
+        occupation: 'Enhancing and developing DataLab\'s data',
+        contract: "Internship",
+        description:
+          'As part of INED\'s DataLab team, identification and development of historical data, documentation ' +
+          'for best practice developments, analysis and documentation for APIs. Creation and documentation of the SCSS style.\n',
+      },
+      {
+        company: {
           name: 'Blackbird',
           link: "https://black.bird.eu/en/"
         },

@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: "Thibaud Ritzenthaler",
-  siteDescription: `CV de Thibaud Ritzenthaler`,
+  siteDescription: `CV von Thibaud Ritzenthaler`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Thibaud Ritzenthaler',
   //twitterUsername: 'thibaudRtz',
@@ -12,7 +12,7 @@ module.exports = {
     github: 'https://github.com/thibaud-ritzenthaler/',
     email: 'thibaud@ritzenthaler.eu',
   },
-  authorDescription: `Né en 1998 – Etudiant en Master Démographie, niveau master en Systèmes d’Informations`,
+  authorDescription: `Geboren 1998 - Ein begeisterter, anpassungsfähiger Absolvent der IT-Ingenieurschule mit 3 Jahren Erfahrung in der Webentwicklung.  Besondere Fachkenntnisse in Magento E-Commerce-Framework. Nachgewiesene Fähigkeiten in der Software-Architektur. Sucht eine Gelegenheit in der sozialwissenschaftlichen Softwareentwicklung.`,
   skills: [],
   expertise: [
     {
@@ -80,76 +80,76 @@ module.exports = {
     },
   ],
   jobs: {
-    labelAt: ' chez ',
-    labelToday: 'Actuellement',
+    labelAt: ' bei ',
+    labelToday: 'Heute',
     list: [
       {
         company: {
           name: 'Institut National d\'Études Démographiques',
-          link: "https://www.ined.fr/"
+          link: "https://www.ined.fr/en/"
         },
         begin: {
-          month: 'mai',
+          month: 'may',
           year: '2023',
         },
-        duration: '3 mois',
+        duration: '3 monaten',
         location: 'Paris - FR',
-        occupation: 'Valorisation et évolution des données du DataLab',
-        contract: "Stage",
+        occupation: 'Verbesserung und Weiterentwicklung der Daten von DataLab',
+        contract: "Praktikum",
         description:
-          'Dans l\'équipe du DataLab de l\'Ined, recensement et valorisation des données historiques, documentation ' +
-          'pour les évolution en matière de bonnes pratiques, analyse et documentation pour les API. Création et documentation du style en SCSS.\n',
+          'Als Teil des DataLab-Teams von INED: Identifizierung und Entwicklung historischer Daten, Dokumentation' +
+          ' für Best-Practice-Entwicklungen, Analyse und Dokumentation von APIs. Erstellung und Dokumentation des SCSS-Stils.\n',
       },
       {
         company: {
           name: 'Blackbird',
-          link: "https://black.bird.eu/"
+          link: "https://black.bird.eu/en/"
         },
         begin: {
-          month: 'oct',
+          month: 'okt',
           year: '2020',
         },
-        duration: '2 ans',
-        location: 'Strasbourg - FR',
-        occupation: 'Analyste Developpeur Testeur Fullstack',
-        contract: "Apprentissage",
+        duration: '2 jahren',
+        location: 'Strassburg - FR',
+        occupation: 'Fullstack Analyst Developer Tester',
+        contract: 'Berufsausbildung',
         description:
-          'Analyse, conception et développement de solutions e-commerce fullstack en concertation avec l’équipe Blackbird et ses clients.\n' +
-          'Gestion de la connexion entre ERP, CRM, PIM et site E-commerce via API REST et GraphQl.\n',
+          'Analyse, Design und Entwicklung von Fullstack-E-Commerce-Lösungen in Zusammenarbeit mit dem Blackbird-Team und seinen Kunden.\n' +
+          'Verwalten der Verbindung zwischen ERP, CRM, PIM und E-Commerce-Website über REST API und GraphQl.\n',
       },
       {
         company: {
           name: 'Websurg, IRCAD',
-          link: "https://websurg.com/"
+          link: "https://websurg.com/en/"
         },
         begin: {
           month: 'sep',
           year: '2019',
         },
-        duration: '1 an et 1 mois',
-        location: 'Strasbourg - FR',
-        occupation: 'Analyste Developpeur Testeur Web',
-        contract: "Apprentissage",
+        duration: '1 jahre und 1 monate',
+        location: 'Strassburg - FR',
+        occupation: 'Web Analyst Developer Tester',
+        contract: "Berufsausbildung",
         description:
-          'Au sein de l\'équipe WebSurg, création d\'applications web internes comprenant traitement ' +
-          'd\'images, machine learning, traitement de bases de données utilisateurs et interfaçage pour l’accueil des élèves.',
+          'Innerhalb des WebSurg-Teams Erstellung interner Webanwendungen, einschließlich Bildverarbeitung,' +
+          ' maschinelles Lernen, Verarbeitung von Benutzerdatenbanken und Schnittstellen für das Onboarding von Studenten.',
       },
       {
         company: {
           name: 'INTM',
-          link: "https://www.intm.fr/"
+          link: "https://intm.com/en/"
         },
         begin: {
-          month: 'avr',
+          month: 'apr',
           year: '2018',
         },
-        duration: '5 mois',
-        location: 'Strasbourg - FR',
-        occupation: 'Analyste Developpeur Testeur',
-        contract: "Stage puis CDD",
+        duration: '5 monaten',
+        location: 'Strassburg - FR',
+        occupation: 'Analyst Developer Tester',
+        contract: "Praktikum, dann befristeter Vertrag",
         description:
-          'Analyse et développement d\'un chatbot permettant de répondre de manière rapide aux questions administratives ' +
-          'des employés dans le cadre d\'une ESN avec Dialogflow.',
+          'Analyse und Entwicklung eines Chatbots zur schnellen Beantwortung von administrativen Fragen ' +
+          'der Mitarbeiter im Rahmen eines IT-Beratungsunternehmens mit Dialogflow.',
       },
     ]
   },
@@ -169,86 +169,85 @@ module.exports = {
   education: [
     {
       school: 'IDUS, Université de Strasbourg',
-      degree: 'Master',
-      field: 'Démographie',
-      additionalInfo: 'En cours',
+      degree: 'Master in Sozialwissenschaften',
+      field: 'Demographie',
+      additionalInfo: 'Laufend',
       startYear: 2022,
       endYear: 2024,
       link: "https://idus.unistra.fr/"
     },
     {
-      school: 'CESI',
-      degree: 'Titre professionnel niveau 7 (Master)',
-      field: 'Manager en architecture et applications logicielles des systèmes d’information',
-      additionalInfo: 'Option expert développement',
+      school: 'Ingenieurhochschule CESI',
+      degree: 'Master in Wissenschaft',
+      field: 'IT-Management',
+      additionalInfo: 'Entwicklungsspezialist',
       startYear: 2020,
       endYear: 2022,
-      link: "https://strasbourg.cesi.fr/"
+      link: "https://www.cesi.fr/en/"
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
-      degree: 'Licence Professionnelle',
-      additionalInfo: 'Mention Assez Bien',
-      field: 'Conception et Développement d\'Applications Distribuées',
+      degree: 'Bachelor\'s Degree in Science',
+      additionalInfo: 'With merit',
+      field: ' Web Development and IT',
       startYear: 2019,
       endYear: 2020,
-      link: "https://iutrs.unistra.fr/"
+      link: "https://iutrs.unistra.fr/english"
     },
     {
       school: 'IUT Robert Schumann, Université de Strasbourg',
-      degree: 'Diplôme Universitaire de Technologie',
-      field: 'Informatique',
+      degree: 'Two-year university degree in technology',
+      field: 'IT',
       startYear: 2016,
       endYear: 2019,
-      link: "https://iutrs.unistra.fr/"
+      link: "https://iutrs.unistra.fr/english"
     },
     {
       school: 'Lycée Marguerite Yourcenar, Erstein',
-      degree: 'Baccalauréat',
-      additionalInfo: 'Spécialité Mathématiques, Section Européenne Allemand, Option Latin',
-      field: 'Scientifique',
+      degree: 'A-Level Diploma',
+      additionalInfo: 'Specialized in mathematics, Latin specialization, German European Section',
+      field: 'Science',
       startYear: 2014,
       endYear: 2016,
       link: "http://www.lyc-yourcenar-erstein.site.ac-strasbourg.fr/"
     },
   ],
   languages: {
-    title: 'Langues',
+    title: 'Language',
     list: [
       {
-        language: 'Français',
-        level: 'Langue maternelle',
+        language: 'French',
+        level: 'Native language - Langue maternelle',
         code: 'FR',
       },
       {
-        language: 'Anglais',
+        language: 'English',
         level: 'C1 - TOEIC : 980 - Fluid Written & Spoken',
         code: 'GB',
       },
       {
-        language: 'Allemand',
+        language: 'German',
         level: 'B1 - Gesprochen und geschrieben in Alltagssprache',
         code: 'DE',
       },
     ]
   },
-
   activities: [
     {
       structure: {
         name: "Un Effort Pour Un Réconfort",
-        desc: "Association caritative de lutte contre le cancer et les maladies graves"
+        desc: "Cancer and Critical Illness Charity"
       },
-      position: "Membre fondateur et vice président",
+      position: "Founding member and vice president",
       link: "https://fr-fr.facebook.com/uneffortpourunreconfort/",
       image: "/images/uepur_square.jpg",
     },
     {
       structure: {
         name: "On s'fait une toile sur RBS",
-        desc: "Emission sur le cinéma sur une radio locale"
+        desc: "Broadcast on cinema on a local radio"
       },
-      position: "Chroniqueur, Animateur et Producteur",
+      position: "Host and Producer",
       link: "https://onsfaitunetoile.fr/",
       image: "/images/on_sfait_une_toile.png",
     },
@@ -257,7 +256,7 @@ module.exports = {
         name: "Tengu Ryu Karaté-do",
         desc: "Shin'Kyuu Dojo"
       },
-      position: "Praticant hebdomadaire - 5eme Ryu",
+      position: "Weekly exerciser - 5th Ryu",
       link: "http://shinkyuudojo.free.fr/",
       image: "/images/tengu.png",
     },
@@ -292,14 +291,14 @@ module.exports = {
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/favicon.jpg',
-  resume: '/cv_Thibaud_Ritzenthaler.pdf',
+  resume: '/cv_Thibaud_Ritzenthaler_en.pdf',
   headerLinks: [
     {
-      label: 'A Propos',
+      label: 'About',
       url: 'about',
     },
     {
-      label: 'Expérience',
+      label: 'Experience',
       url: 'experience',
     },
     //{
@@ -307,11 +306,11 @@ module.exports = {
     //  url: 'publications',
     //},
     {
-      label: 'Formation',
+      label: 'Education',
       url: 'education',
     },
     {
-      label: 'Activités',
+      label: 'Activity',
       url: 'activities',
     },
     // {
