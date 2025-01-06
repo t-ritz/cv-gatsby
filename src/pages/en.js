@@ -21,6 +21,7 @@ import {
   Timeline,
   Education,
   Hobbies,
+  Publications,
   Activities,
   Expertise,
 } from '../components'
@@ -115,9 +116,9 @@ class Home extends React.Component {
               <Separator/>
               <Timeline title="Experience" siteConfig={siteConfig}/>
               {/* <Separator />
-              <Repositories />
+              <Repositories />*/}
               <Separator />
-              <Publications />*/}
+              <Publications />
               <Separator/>
               <Education title="Education" siteConfig={siteConfig}/>
               <Activities title="Activity" siteConfig={siteConfig}/>
@@ -160,6 +161,10 @@ export default styled(Home)`
   .social-link {
     padding: 8px;
     color: #555;
+  }
+
+  a.social-link.twitter:hover {
+    color: #1da1f2;
   }
 
   a.social-link.twitter:hover {

@@ -44,10 +44,10 @@ module.exports = {
       }
     },
     {
-      name: 'Magento',
+      name: 'DDI',
       icon: {
-        name: 'FaMagento',
-        library: 'fa'
+        name: 'HiOutlineDocumentText',
+        library: 'hi'
       }
     },
     {
@@ -58,10 +58,10 @@ module.exports = {
       }
     },
     {
-      name: 'C Sharp',
+      name: 'PHP',
       icon: {
-        name: 'SiCsharp',
-        library: 'si'
+        name: 'FaPhp',
+        library: 'fa'
       }
     },
     {

@@ -5,10 +5,11 @@ const Footer = ({className}) => {
   return (
     <footer className={className}>
       <div>
-        <b>Thibaud Ritzenthaler</b> - {new Date().getFullYear()}, built with
+      <b>Thibaud Ritzenthaler</b> - {new Date().getFullYear()} - picture by <b><a href="https://unkadth.myportfolio.com/">Chloé Garcia</a></b> - built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </div>
+      <div></div>
     </footer>
   )
 }

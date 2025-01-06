@@ -29,6 +29,13 @@ const Timeline = ({title, className, siteConfig}) => {
                   <a href={job.company.link} target="_blank" rel="noopener noreferrer">
                     {job.company.name}
                   </a>
+                  {job.company2 && 
+                    <><br /> &<> </>
+                    <a href={job.company2.link} target="_blank" rel="noopener noreferrer">
+                    {job.company2.name}
+                    </a>
+                    </>
+                  }
                 </span>
                 <br/>
                 <small className="timeline__title--small">

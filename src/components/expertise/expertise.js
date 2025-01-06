@@ -20,7 +20,9 @@ const Expertise = ({ title, siteConfig, className}) => {
                icon = require('react-icons/fa')[expertise.icon.name]
              } else if (expertise.icon.library === 'si') {
                icon = require('react-icons/si')[expertise.icon.name]
-             }
+             } else if (expertise.icon.library === 'hi') {
+              icon = require('react-icons/hi')[expertise.icon.name]
+            }
             return (
               <div className="expertise_item" key={expertise.name}>
                 {React.createElement(icon, { size: 32 })}
