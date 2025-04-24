@@ -8,6 +8,7 @@ import {
   FaEnvelope,
   FaTwitter,
   FaFileDownload,
+  FaOrcid,
 } from 'react-icons/fa'
 import siteConfig from '../../data/siteConfigEn'
 
@@ -72,14 +73,14 @@ class Home extends React.Component {
                         <FaLinkedin className="social-icon" size="32"/>
                       </a>
                     )}
-                    {siteConfig.social.twitter && (
+                    {siteConfig.social.orcid && (
                       <a
-                        className="social-link twitter"
-                        href={siteConfig.social.twitter}
+                        className="social-link orcid"
+                        href={siteConfig.social.orcid}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <FaTwitter className="social-icon" size="32"/>
+                        <FaOrcid className="social-icon" size="32"/>
                       </a>
                     )}
                     {siteConfig.social.email && (
@@ -117,12 +118,12 @@ class Home extends React.Component {
               <Timeline title="Experience" siteConfig={siteConfig}/>
               {/* <Separator />
               <Repositories />*/}
-              <Separator />
-              <Publications />
               <Separator/>
               <Education title="Education" siteConfig={siteConfig}/>
-              <Activities title="Activity" siteConfig={siteConfig}/>
-              {/*<Separator/>
+              <Separator />
+              <Publications />
+              {/*<Activities title="Activity" siteConfig={siteConfig}/>
+              <Separator/>
                 <Hobbies/>*/}
             </Container>
           </Wrapper>
@@ -163,12 +164,8 @@ export default styled(Home)`
     color: #555;
   }
 
-  a.social-link.twitter:hover {
-    color: #1da1f2;
-  }
-
-  a.social-link.twitter:hover {
-    color: #1da1f2;
+    a.social-link.orcid:hover {
+    color: #a5cd39;
   }
 
   a.social-link.github:hover {

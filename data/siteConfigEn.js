@@ -85,7 +85,32 @@ module.exports = {
     list: [
       {
         company: {
-          name: 'Institut National d\'Études Démographiques',
+          name: 'Generation and Gender Programme',
+          link: "https://www.ggp-i.org/"
+        },
+        company2: {
+          name: 'French National Institute for Demographic Studies',
+          link: "https://www.ined.fr/en/"
+        },
+        begin: {
+          month: 'oct',
+          year: '2023',
+        },
+        duration: '',
+        location: 'Paris - FR',
+        occupation: 'Publication of metadata for an international survey',
+        contract: "Temporary contract",
+        description:
+          'As part of the INED DataLab and GGP Central Hub team, providing' +
+          'metadata for the countries participating in the survey, taking part in' +
+          'the organisation of the GGP Central Hub, monitoring, promoting and' +
+          'contributing to the DDI standard and its technical implementations.' +
+          'Creation of software pipelines to automate production and testing,' +
+          'maintenance of the GGP contextual database.\n',
+      },
+      {
+        company: {
+          name: 'French National Institute for Demographic Studies',
           link: "https://www.ined.fr/en/"
         },
         begin: {
@@ -334,18 +359,18 @@ module.exports = {
       label: 'Experience',
       url: 'experience',
     },
-    //{
-    //  label: 'Publications',
-    //  url: 'publications',
-    //},
     {
       label: 'Education',
       url: 'education',
     },
     {
-      label: 'Activity',
-      url: 'activities',
+      label: 'Publications',
+      url: 'publications',
     },
+    //{
+    //  label: 'Activity',
+    //  url: 'activities',
+    //},
     // {
     //   label: 'Contact',
     //   url: 'contact',
