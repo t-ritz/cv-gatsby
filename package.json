@@ -22,6 +22,7 @@
     "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-image": "^2.8.0",
     "gatsby-plugin-manifest": "^4.7.0",
+    "gatsby-plugin-matomo": "^0.17.0",
     "gatsby-plugin-mdx": "^3.7.0",
     "gatsby-plugin-sharp": "^4.8.0",
     "gatsby-plugin-sitemap": "^5.7.0",

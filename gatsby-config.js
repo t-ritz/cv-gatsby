@@ -9,7 +9,14 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-sitemap",
     `gatsby-plugin-styled-components`,
-
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '1',
+        matomoUrl: 'https://matomo.ritzenthaler.eu/',
+        siteUrl: 'https://thibaudritzenthaler.dev'
+      }
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
